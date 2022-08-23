@@ -16,7 +16,7 @@ struct QuotesListView: View {
             ForEach(model.quote) { quote in
                 
                 NavigationLink {
-                    //
+                    QuoteDetailView(quote: quote)
                 } label: {
                     ZStack {
                         Image(quote.image)
