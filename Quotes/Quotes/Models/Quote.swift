@@ -14,5 +14,6 @@ class Quote: Identifiable, Decodable {
     var quote: String
     var author: String
     var details: String
+    var image: String
     
 }

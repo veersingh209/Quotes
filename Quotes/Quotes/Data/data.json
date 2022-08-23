@@ -2,32 +2,37 @@
     
     {
         "quote" : "insert quote here",
-        "author" : "inseet author name here"
-        "details" : "insert qouote details here"
+        "author" : "inseet author name here",
+        "details" : "insert qouote details here",
+        "image" : "ambition"
     },
     
     {
         "quote" : "insert quote here",
-        "author" : "inseet author name here"
-        "details" : "insert qouote details here"
+        "author" : "inseet author name here",
+        "details" : "insert qouote details here",
+        "image" : "calm"
     },
     
     {
         "quote" : "insert quote here",
-        "author" : "inseet author name here"
-        "details" : "insert qouote details here"
+        "author" : "inseet author name here",
+        "details" : "insert qouote details here",
+        "image" : "focus"
     },
     
     {
         "quote" : "insert quote here",
-        "author" : "inseet author name here"
-        "details" : "insert qouote details here"
+        "author" : "inseet author name here",
+        "details" : "insert qouote details here",
+        "image" : "reflect"
     },
     
     {
         "quote" : "insert quote here",
-        "author" : "inseet author name here"
-        "details" : "insert qouote details here"
+        "author" : "inseet author name here",
+        "details" : "insert qouote details here",
+        "image" : "reflect2"
     }
     
 ]
