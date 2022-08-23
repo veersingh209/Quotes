@@ -52,7 +52,11 @@
 			isa = PBXGroup;
 			children = (
 				4897A99D28B570B20029C134 /* QuotesApp.swift */,
-				4897A99F28B570B20029C134 /* ContentView.swift */,
+				4897A9AB28B570CE0029C134 /* Views */,
+				4897A9AC28B570D40029C134 /* ViewModels */,
+				4897A9AD28B570E40029C134 /* Models */,
+				4897A9B028B570F60029C134 /* Service */,
+				4897A9AE28B570EC0029C134 /* Data */,
 				4897A9A128B570B30029C134 /* Assets.xcassets */,
 				4897A9A328B570B30029C134 /* Preview Content */,
 			);
@@ -65,6 +69,42 @@
 				4897A9A428B570B30029C134 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4897A9AB28B570CE0029C134 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4897A99F28B570B20029C134 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4897A9AC28B570D40029C134 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4897A9AD28B570E40029C134 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4897A9AE28B570EC0029C134 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4897A9B028B570F60029C134 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
