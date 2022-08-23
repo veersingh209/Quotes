@@ -7,13 +7,22 @@
 
 import Foundation
 
-class Quote: Identifiable, Decodable {
+struct Quote: Identifiable, Decodable {
     
     var id:UUID?
     
-    var quote: String
     var author: String
-    var details: String
+    var quote: [String]
     var image: String
+    
+    static func testData() -> Quote {
+        
+        return Quote(
+            id: UUID(),
+            author: "Author",
+            quote: ["Quote1, Quote2, Quote3"],
+            image: "ambition"
+        )
+    }
     
 }

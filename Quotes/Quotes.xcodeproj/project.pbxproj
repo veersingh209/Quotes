@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4897A99E28B570B20029C134 /* QuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4897A99D28B570B20029C134 /* QuotesApp.swift */; };
-		4897A9A028B570B20029C134 /* QuotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4897A99F28B570B20029C134 /* QuotesListView.swift */; };
+		4897A9A028B570B20029C134 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4897A99F28B570B20029C134 /* QuotesView.swift */; };
 		4897A9A228B570B30029C134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4897A9A128B570B30029C134 /* Assets.xcassets */; };
 		4897A9A528B570B30029C134 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4897A9A428B570B30029C134 /* Preview Assets.xcassets */; };
 		4897A9B228B571690029C134 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4897A9B128B571690029C134 /* data.json */; };
@@ -16,12 +16,13 @@
 		4897A9B728B5724A0029C134 /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4897A9B628B5724A0029C134 /* DateService.swift */; };
 		4897A9B928B5743F0029C134 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4897A9B828B5743F0029C134 /* QuoteModel.swift */; };
 		4897A9BB28B577D40029C134 /* QuoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4897A9BA28B577D40029C134 /* QuoteDetailView.swift */; };
+		4897A9BD28B57B2A0029C134 /* QuoteCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4897A9BC28B57B2A0029C134 /* QuoteCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4897A99A28B570B20029C134 /* Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4897A99D28B570B20029C134 /* QuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesApp.swift; sourceTree = "<group>"; };
-		4897A99F28B570B20029C134 /* QuotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListView.swift; sourceTree = "<group>"; };
+		4897A99F28B570B20029C134 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
 		4897A9A128B570B30029C134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4897A9A428B570B30029C134 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4897A9B128B571690029C134 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
@@ -29,6 +30,7 @@
 		4897A9B628B5724A0029C134 /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
 		4897A9B828B5743F0029C134 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
 		4897A9BA28B577D40029C134 /* QuoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailView.swift; sourceTree = "<group>"; };
+		4897A9BC28B57B2A0029C134 /* QuoteCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +86,9 @@
 		4897A9AB28B570CE0029C134 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4897A99F28B570B20029C134 /* QuotesListView.swift */,
+				4897A99F28B570B20029C134 /* QuotesView.swift */,
 				4897A9BA28B577D40029C134 /* QuoteDetailView.swift */,
+				4897A9BC28B57B2A0029C134 /* QuoteCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,9 +198,10 @@
 			files = (
 				4897A9BB28B577D40029C134 /* QuoteDetailView.swift in Sources */,
 				4897A9B928B5743F0029C134 /* QuoteModel.swift in Sources */,
-				4897A9A028B570B20029C134 /* QuotesListView.swift in Sources */,
+				4897A9A028B570B20029C134 /* QuotesView.swift in Sources */,
 				4897A9B428B571F10029C134 /* Quote.swift in Sources */,
 				4897A99E28B570B20029C134 /* QuotesApp.swift in Sources */,
+				4897A9BD28B57B2A0029C134 /* QuoteCard.swift in Sources */,
 				4897A9B728B5724A0029C134 /* DateService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

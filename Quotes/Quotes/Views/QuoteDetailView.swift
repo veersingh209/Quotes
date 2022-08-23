@@ -21,7 +21,9 @@ struct QuoteDetailView: View {
                 
                 VStack {
                 
-                    Text(quote.details)
+                    ForEach(quote.quote, id: \.self){ q in
+                        Text(q)
+                    }
                 }
                 
             }
