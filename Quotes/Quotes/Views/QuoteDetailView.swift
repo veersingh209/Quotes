@@ -9,32 +9,36 @@ import SwiftUI
 
 struct QuoteDetailView: View {
     var quote: Quote
+    
     var body: some View {
         ZStack {
+            ScrollView {
+            VStack(alignment: .leading) {
+                ForEach(quote.quote, id: \.self){ q in
+                    Text("- \(q)")
+                        .fontWeight(.bold)
+                        .multilineTextAlignment(.leading)
+                        .padding()
+                        .font(.body)
+                }
+                Spacer()
+            }
+        }
+            .navigationTitle(quote.author)
+            
+        }
+        .background(
             Image(quote.image)
                 .resizable()
-                .scaledToFill()
-                .ignoresSafeArea()
-                .opacity(0.7)
-            
-            ScrollView {
-                
-                VStack {
-                
-                    ForEach(quote.quote, id: \.self){ q in
-                        Text(q)
-                    }
-                }
-                
-            }
-            .navigationTitle(quote.author)
-        }
+                .edgesIgnoringSafeArea(.all)
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                .opacity(0.5)
+        )
     }
 }
 
 struct QuoteDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        let model = QuoteModel()
-        QuoteDetailView(quote: model.quote[0])
+        QuoteDetailView(quote: Quote.testData())
     }
 }

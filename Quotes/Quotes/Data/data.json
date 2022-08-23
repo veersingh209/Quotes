@@ -1,48 +1,77 @@
 [
-    
+
     {
-        "author" : "Charles Swindoll,
-        "quote" : ["We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
-            "Each day of our lives we make deposits in the memory banks of our children.",
-            "The remarkable thing is, we have a choice everyday regarding the attitude we will embrace for that day.",
-        "When you have vision it affects your attitude. Your attitude is optimistic rather than pessimistic."],
-        "image" : "ambition"
+        "author": "Steve Jobs",
+        "quote": ["Innovation distinguishes between a leader and a follower.",
+            "Your time is limited, so don’t waste it living someone else’s life.",
+            "Don’t let the noise of others’ opinions drown out your own inner voice.",
+            "You can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future.",
+            "Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.",
+            "Stay hungry. Stay foolish.",
+            "I'm convinced that about half of what separates the successful entrepreneurs from the nonsuccessful ones is pure perseverance.",
+            "You can't just ask customers what they want and then try to give that to them. By the time you get it built, they'll want something new.",
+            "People think focus means saying yes to the thing you've got to focus on. It means saying no to the hundred other good ideas that there are. You have to pick carefully.",
+            "We’re here to put a dent in the universe. Otherwise why else even be here?"
+        ],
+        "image": "ambition"
     },
-    
+
     {
-        "author" : "Charles Swindoll",
-        "quote" : ["We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
-            "Each day of our lives we make deposits in the memory banks of our children.",
-            "The remarkable thing is, we have a choice everyday regarding the attitude we will embrace for that day.",
-        "When you have vision it affects your attitude. Your attitude is optimistic rather than pessimistic."],
-        "image" : "calm"
+        "author": "Albert Einstein",
+        "quote": ["We cannot solve our problems with the same thinking we used when we created them.",
+            "The true sign of intelligence is not knowledge but imagination.",
+            "I have no special talent. I am only passionately curious.",
+            "The only reason for time is so that everything doesn't happen at once.",
+            "Only a life lived for others is a life worthwhile.",
+            "It should be possible to explain the laws of physics to a barmaid.",
+            "Let us not forget that human knowledge and skills alone cannot lead humanity to a happy and dignified life."
+        ],
+        "image": "calm"
     },
-    
+
     {
-        "author" : "Charles Swindoll",
-        "quote" : ["We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
-            "Each day of our lives we make deposits in the memory banks of our children.",
-            "The remarkable thing is, we have a choice everyday regarding the attitude we will embrace for that day.",
-        "When you have vision it affects your attitude. Your attitude is optimistic rather than pessimistic."],
-        "image" : "focus"
+        "author": "Abraham Lincoln",
+        "quote": ["Always bear in mind that your own resolution to succeed, is more important than any one thing.",
+            "We cannot escape history.",
+            "The struggle of today is not altogether for today – it is for a vast future also.",
+            "I have an irrepressible desire to live till I can be assured that the world is a little better for my having lived in it.",
+            "The better part of one's life consists of his friendships.",
+            "All that I am or hope to be, I owe to my angel mother.",
+            "I say 'try'; if we never try, we shall never succeed.",
+            "I have received nothing but kindness at your hands.",
+            "It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus so far nobly advanced.",
+            "With malice towards none, with charity for all... let us strive on to finish the work we are in."
+        ],
+        "image": "focus"
     },
-    
+
     {
-        "author" : "Charles Swindoll",
-        "quote" : ["We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
-            "Each day of our lives we make deposits in the memory banks of our children.",
-            "The remarkable thing is, we have a choice everyday regarding the attitude we will embrace for that day.",
-        "When you have vision it affects your attitude. Your attitude is optimistic rather than pessimistic."],
-        "image" : "reflect"
+        "author": "Martin Luther King Jr.",
+        "quote": ["Intelligence plus character — that is the goal of true education.",
+            "If we are not careful, our colleges will produce a group of close-minded, unscientific, illogical propagandists, consumed with immoral acts. Be careful, 'brethren!' Be careful, teachers!",
+            "True peace is not merely the absence of tension; it is the presence of justice.",
+            "Science investigates; religion interprets. Science gives man knowledge, which is power; religion gives man wisdom, which is control. Science deals mainly with facts; religion deals mainly with values. The two are not rivals.",
+            "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.",
+            "We know through painful experience that freedom is never voluntarily given by the oppressor, it must be demanded by the oppressed.",
+            "Injustice anywhere is a threat to justice everywhere. We are caught in an inescapable network of mutuality, tied in a single garment of destiny. Whatever affects one directly, affects all indirectly.",
+            "Out of the mountain of despair, a stone of hope.",
+            "We have also come to this hallowed spot to remind America of the fierce urgency of Now. This is no time to engage in the luxury of cooling off or to take the tranquilizing drug of gradualism. Now is the time to make real the promises of democracy.",
+            "Darkness cannot drive out darkness, only light can do that. Hate cannot drive out hate, only love can do that.",
+            "I believe that unarmed truth and unconditional love will have the final word in reality. This is why right, temporarily defeated, is stronger than evil triumphant.",
+            "The time is always right to do what is right.",
+            "The contemporary tendency in our society is to base our distribution on scarcity, which has vanished, and to compress our abundance into the overfed mouths of the middle and upper classes until they gag with superfluity. If democracy is to have breadth of meaning, it is necessary to adjust this inequity. It is not only moral, but it is also intelligent. We are wasting and degrading human life by clinging to archaic thinking."
+        ],
+        "image": "reflect"
     },
-    
+
     {
-        "author" : "Charles Swindoll",
-        "quote" : ["We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
+        "author": "Charles Swindoll",
+        "quote": ["We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
             "Each day of our lives we make deposits in the memory banks of our children.",
             "The remarkable thing is, we have a choice everyday regarding the attitude we will embrace for that day.",
-        "When you have vision it affects your attitude. Your attitude is optimistic rather than pessimistic."],
-        "image" : "reflect2"
+            "When you have vision it affects your attitude. Your attitude is optimistic rather than pessimistic."
+        ],
+        "image": "reflect2"
     }
-    
+
 ]

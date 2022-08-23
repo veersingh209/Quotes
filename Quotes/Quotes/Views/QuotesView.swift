@@ -13,16 +13,21 @@ struct QuotesView: View {
     var body: some View {
         NavigationView {
             
-            ForEach(model.quote) { quote in
-                
-                NavigationLink {
-                    QuoteDetailView(quote: quote)
-                } label: {
-                    //
+            ScrollView {
+                VStack(alignment: .leading, spacing: 20) {
+                    
+                    ForEach(model.quote) { quote in
+                        
+                        NavigationLink {
+                            QuoteDetailView(quote: quote)
+                            
+                        } label: {
+                            QuoteCard(quote: quote)
+                        }
+                    }
                 }
-
             }
-            
+            .navigationBarHidden(true)
         }
     }
 }
