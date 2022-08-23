@@ -9,6 +9,7 @@ import SwiftUI
 
 struct QuoteCard: View {
     var quote:Quote
+    @State var randomInt:Int = 0
     
     var body: some View {
         ZStack {
@@ -18,11 +19,10 @@ struct QuoteCard: View {
                 .cornerRadius(15)
             
             VStack(alignment: .center) {
-                let random = Int.random(in: 0...quote.quote.count-1)
-                Text(quote.quote[random])
-                    .font(.largeTitle)
+                Text(quote.quote[randomInt])
                     .fontWeight(.bold)
                     .padding(.all, 5)
+                    .minimumScaleFactor(0.1)
                 
                 HStack(alignment: .center) {
                     Spacer()
@@ -34,6 +34,9 @@ struct QuoteCard: View {
             .padding([.top, .leading], 20.0)
             .shadow(color: .black, radius: 10, x: 2, y: 2)
         }
+        .onAppear {
+            randomInt = Int.random(in: 0..<quote.quote.count-1)
+        }
         .foregroundColor(Color.white)
         .frame(width: .none, height: 400, alignment: .center)
         .clipped()
@@ -44,6 +47,6 @@ struct QuoteCard: View {
 
 struct QuoteCard_Previews: PreviewProvider {
     static var previews: some View {
-        QuoteCard(quote: Quote.testData())
+        QuoteCard(quote: Quote.testData(), randomInt: 0)
     }
 }

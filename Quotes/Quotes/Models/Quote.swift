@@ -9,7 +9,7 @@ import Foundation
 
 struct Quote: Identifiable, Decodable {
     
-    var id:UUID?
+    var id: UUID?
     
     var author: String
     var quote: [String]
